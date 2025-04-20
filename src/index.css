@@ -1,0 +1,73 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 222 47% 11%;
+    --foreground: 210 40% 98%;
+
+    --card: 222 47% 11%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222 47% 11%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 263 70% 50%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 270 76% 75%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 263 70% 50%;
+    
+    --radius: 0.5rem;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-casino-darker text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+}
+
+@layer utilities {
+  .glow {
+    box-shadow: 0 0 10px theme('colors.casino.primary'), 
+                0 0 30px rgba(139, 92, 246, 0.3);
+  }
+  
+  .glow-accent {
+    box-shadow: 0 0 10px theme('colors.casino.highlight'), 
+                0 0 30px rgba(249, 115, 22, 0.3);
+  }
+
+  .game-card {
+    @apply relative overflow-hidden rounded-xl bg-casino-dark border border-casino-primary/20 transition-all duration-300 hover:border-casino-primary/50 hover:glow;
+  }
+  
+  .btn-casino {
+    @apply px-4 py-2 bg-gradient-primary rounded-md text-white font-medium transition-all duration-300 hover:opacity-90 hover:glow;
+  }
+  
+  .btn-accent {
+    @apply px-4 py-2 bg-casino-highlight rounded-md text-white font-medium transition-all duration-300 hover:opacity-90 hover:glow-accent;
+  }
+}

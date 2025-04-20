@@ -1,0 +1,17 @@
+/Users/gundeepsingh/Downloads/java-project-ese/backend/src/main/java/com/casino/backend/repository/UserRepository.java
+/Users/gundeepsingh/Downloads/java-project-ese/backend/src/main/java/com/casino/backend/repository/BetRepository.java
+/Users/gundeepsingh/Downloads/java-project-ese/backend/src/main/java/com/casino/backend/dto/LoginRequest.java
+/Users/gundeepsingh/Downloads/java-project-ese/backend/src/main/java/com/casino/backend/model/User.java
+/Users/gundeepsingh/Downloads/java-project-ese/backend/src/main/java/com/casino/backend/service/AuthService.java
+/Users/gundeepsingh/Downloads/java-project-ese/backend/src/main/java/com/casino/backend/service/BetService.java
+/Users/gundeepsingh/Downloads/java-project-ese/backend/src/main/java/com/casino/backend/repository/WalletRepository.java
+/Users/gundeepsingh/Downloads/java-project-ese/backend/src/main/java/com/casino/backend/controller/BetController.java
+/Users/gundeepsingh/Downloads/java-project-ese/backend/src/main/java/com/casino/backend/dto/AuthResponse.java
+/Users/gundeepsingh/Downloads/java-project-ese/backend/src/main/java/com/casino/backend/dto/RegisterRequest.java
+/Users/gundeepsingh/Downloads/java-project-ese/backend/src/main/java/com/casino/backend/security/JwtUtil.java
+/Users/gundeepsingh/Downloads/java-project-ese/backend/src/main/java/com/casino/backend/controller/UserController.java
+/Users/gundeepsingh/Downloads/java-project-ese/backend/src/main/java/com/casino/backend/service/UserService.java
+/Users/gundeepsingh/Downloads/java-project-ese/backend/src/main/java/com/casino/backend/security/JwtFilter.java
+/Users/gundeepsingh/Downloads/java-project-ese/backend/src/main/java/com/casino/backend/CasinoBackendApplication.java
+/Users/gundeepsingh/Downloads/java-project-ese/backend/src/main/java/com/casino/backend/controller/AuthController.java
+/Users/gundeepsingh/Downloads/java-project-ese/backend/src/main/java/com/casino/backend/security/SecurityConfig.java
